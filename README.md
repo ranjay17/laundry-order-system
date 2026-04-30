@@ -4,6 +4,12 @@ A simple backend system to manage laundry orders, built using Node.js, Express.j
 
 This project demonstrates real-world backend concepts like order creation, billing logic, status management, filtering, search, and dashboard aggregation.
 
+## 📁 Project Structure
+laundry-order-system/
+├── backend/ # Node.js + Express API
+├── README.md # Project documentation
+├── AI_USAGE.md # AI usage report
+
 ---
 
 ## 🚀 Project Overview
