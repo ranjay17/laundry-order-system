@@ -53,3 +53,7 @@ MONGO_URI=your_mongodb_connection_string
 
 ### 4. Run the server
 npm run dev
+
+📌 Conclusion
+
+This project demonstrates a simple, working backend system for managing laundry orders with practical REST APIs, MongoDB storage, billing calculation, status management, search/filtering, and dashboard aggregation.
