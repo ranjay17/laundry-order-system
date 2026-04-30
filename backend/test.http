@@ -1,0 +1,32 @@
+### Create Order
+POST http://localhost:5000/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "Rahul Sharma",
+  "phone": "9876543210",
+  "garments": [
+    { "name": "Shirt", "quantity": 2 },
+    { "name": "Pants", "quantity": 1 }
+  ]
+}
+
+### Update Status
+PATCH http://localhost:5000/api/orders/69f23d00a79c253b2ca5b2a6/status
+Content-Type: application/json
+
+{
+  "status": "PROCESSING"
+}
+
+### Get Orders
+GET http://localhost:5000/api/orders
+
+### Filter Orders
+GET http://localhost:5000/api/orders?status=PROCESSING
+
+### Search Orders
+GET http://localhost:5000/api/orders?search=Rahul
+
+### Dashboard
+GET http://localhost:5000/api/dashboard/stats
